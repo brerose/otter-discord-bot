@@ -1,10 +1,9 @@
 import {Client, Intents} from "discord.js";
 const { token } = require('./config.json');
-
-console.log("Bot is starting...");
-
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
+
+console.log("Bot is starting...");
 
 const commands = [{
     name: 'ping',
