@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-v1",
+  "version": "1.0.0",
+  "description": "first discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/Bot.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.6.2"
+  }
+}
