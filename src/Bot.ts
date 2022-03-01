@@ -7,7 +7,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
 const commands = [{
-    name: 'bye',
+    name: 'ping',
     description: 'Replies with Pong!'
 }];
 
@@ -37,7 +37,7 @@ client.on('ready', () => {
 client.on('interactionCreate', async interaction => {
     if (!interaction.isCommand()) return;
 
-    if (interaction.commandName === 'bye') {
+    if (interaction.commandName === 'ping') {
         await interaction.reply('Pong!');
     }
 });
